@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TestSuite1DataDrivenDemo</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>553fa09d-eac9-4f5d-97d2-df479eb35da6</testSuiteGuid>
+   <testCaseLink>
+      <guid>a90cd004-fba4-4f8e-9dec-d4d40ea6f8fe</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Day 2/TestForDataDrivenDemo</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>c0133623-0fe4-4d4c-8014-cc802e0f5e9b</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/XcelDataLogIn</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>c0133623-0fe4-4d4c-8014-cc802e0f5e9b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>99bb0a03-dc05-48a9-b33a-ab516efb415d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c0133623-0fe4-4d4c-8014-cc802e0f5e9b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>b90dcedd-5341-4b01-b2dc-e8ba28dcb30a</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
